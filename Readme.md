@@ -44,4 +44,6 @@ The code is licensed under WTFPL. Feel free to modify it whichever way you want.
 
 ### Bro Credits
 
-Thanks to Minion, Dong&KP(for the missplellingses) and Mister Teh
+Thanks to Minion, Dong&KP(for the missplellingses) and Mister Teh.
+
+Also http://mfizz.com/blog/2013/07/play-framework-module-maven-central.
