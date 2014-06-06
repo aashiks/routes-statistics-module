@@ -1,0 +1,22 @@
+
+
+.table td {
+    text-align: center;
+
+}
+
+.table th {
+   text-align: center;
+}
+
+.table th {
+    background-color: #d9edf7;
+}
+
+.left-align-this {
+      text-align: left;
+}
+
+.full-width {
+    width : 98%;
+}

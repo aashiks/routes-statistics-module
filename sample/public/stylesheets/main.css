@@ -1,0 +1,64 @@
+body {
+  padding-top: 90px;
+}
+
+.body-row{
+    padding: 0 50px;
+}
+
+.badge:hover {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.badge-error {
+    color: #ffffff;
+    background-color: #b94a48;
+}
+.badge-error:hover {
+  background-color: #953b39;
+}
+.badge-warning {
+  color: #ffffff;
+  background-color: #f89406;
+}
+.badge-warning:hover {
+  background-color: #c67605;
+}
+.badge-success {
+  color: #ffffff;
+  background-color: #468847;
+}
+.badge-success:hover {
+  background-color: #356635;
+}
+.badge-info {
+    color: #ffffff;
+    background-color: #3a87ad;
+}
+.badge-info:hover {
+  background-color: #2d6987;
+}
+.badge-inverse {
+  background-color: #333333;
+}
+.badge-inverse:hover {
+  background-color: #1a1a1a;
+}
+
+.progress-bar.animate {
+    width: 100%;
+}
+
+.modal-backdrop {
+    opacity: 0.5;
+}
+
+.modal-dialog {
+    -webkit-transform: translate(0px, 50%);
+    transform: translate(0px, 50%);
+}
+
+.progress-popup {
+    margin-bottom: 0;
+}
