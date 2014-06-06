@@ -1,18 +1,18 @@
 ### Introduction
 
-This module is a quick and dirty hack to gather statistics on the number of times a route is accessed. I haven't tested it other than in very specific use case scenario (try to murder an app with Jmeter for hours and gather statistic)
+This Play Framework 2.2.x module is a quick and dirty hack to gather statistics on the number of times a route is accessed. I haven't tested it other than in very specific use case scenarios(trying to murder an app with Jmeter for hours and gather statistic)
 
 The module provides a filter called StatisticsCachingFilter. 
 
-This guy will intercept every incoming request, notes the request time and time at which response it returned. 
-At this point it records this value in a cache.
+This guy will intercept every incoming request, note the request time and time at which response it returned. 
+At this point it records these values in the cache.
 
-The scala class (ugh, package object) RouteStatistics provides methods to query this cache and return all route statistics as a list of RouteStatistic class
+The scala class (ugh, package object) "RouteStatistics" provides methods to query this cache and return all route statistics as a list of RouteStatistic class
 
 The definition of RouteStatistic is as below.
 
-    case class RouteStatistic(routeName: String,successRequestCount: 
-                                Long,failureRequestCount: Long,
+    case class RouteStatistic(routeName: String,
+                                successRequestCount:Long, failureRequestCount: Long,
                                 averageSuccessResponseTime: Double,averageFailureResponseTime: Double,
                                 medianSuccessResponseTime: Long,medianFailureResponseTime: Long)
 
@@ -41,3 +41,7 @@ Look in the sample directory please
 ### License
 
 The code is licensed under WTFPL. Feel free to modify it whichever way you want. Look in the build.sbt file to modify the org name and so on. 
+
+### Bro Credits
+
+Thanks to Minion, Dong&KP(for the missplellingses) and Mister Teh
